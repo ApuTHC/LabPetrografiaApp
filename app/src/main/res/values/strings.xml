@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Lab Petrología Siglo XXI</string>
+    <string name="app_name_splash">Laboratorio de Petrología \nVersión Siglo XXI \nFacultad de Minas \nUniversidad Nacional \nSede Medellín</string>
+    <string name="app_name_home">¡El Laboratorio al Alcance de tus Manos!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_click">Title click</string>
+    <string name="menu_manual">Manual de Laboratorio</string>
+    <string name="menu_recono">¿Cuál es este Mineral?</string>
+    <string name="menu_rutas">Rutas Geológicas</string>
+    <string name="menu_virtualmicro">Microscopio Virtual</string>
+    <string name="menu_geomap">GeoMap</string>
+    <string name="menu_macro">Roca Macro</string>
+    <string name="menu_micro">Roca Micro</string>
+    <string name="menu_fosil">Fósil</string>
+    <string name="menu_group1">Herramientas</string>
+    <string name="menu_group">Base de Datos</string>
+    <string name="no_data">Lab Petrología Siglo XXI</string>
+    <string name="copyright">Facultad de Minas \nUniversidad Nacional Sede Medellín</string>
+</resources>

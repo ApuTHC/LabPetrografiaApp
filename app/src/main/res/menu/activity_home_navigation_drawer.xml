@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_group1">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_manual"
+                    android:icon="@drawable/manual"
+                    android:title="@string/menu_manual" />
+                <item
+                    android:id="@+id/nav_recono"
+                    android:icon="@drawable/inter"
+                    android:title="@string/menu_recono" />
+                <item
+                    android:id="@+id/nav_rutas"
+                    android:icon="@drawable/ruta"
+                    android:title="@string/menu_rutas" />
+            </group>
+
+            <group
+                android:id="@+id/group1"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_virtualmicro"
+                    android:icon="@drawable/micro1"
+                    android:title="@string/menu_virtualmicro" />
+                <item
+                    android:id="@+id/nav_geomap"
+                    android:icon="@drawable/geomap"
+                    android:title="@string/menu_geomap" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_macro"
+                    android:icon="@drawable/rocki"
+                    android:title="@string/menu_macro" />
+
+                <item
+                    android:id="@+id/nav_micro"
+                    android:icon="@drawable/rock_micro"
+                    android:title="@string/menu_micro" />
+
+                <item
+                    android:id="@+id/nav_fosil"
+                    android:icon="@drawable/fosil"
+                    android:title="@string/menu_fosil" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
+
